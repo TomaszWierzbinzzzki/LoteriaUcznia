@@ -1,0 +1,46 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoteriaUcznia.Views.ClassDetails"
+             Title="Class Details"
+             StyleClass="content-page">
+<ScrollView>
+        <VerticalStackLayout>
+            <Label 
+            x:Name="StudentList"
+            Text="Student List:"
+            HorizontalOptions="Center"
+            StyleClass="label-title"/>
+        <Button></Button>
+        <Entry
+            x:Name="StudentNameEntry"
+            Placeholder="Student's Name"
+            StyleClass="entry-input"/>
+        <Button
+            Text="Add Student"
+            Clicked="AddStudent"
+            StyleClass="button-primary"/>
+        <Button></Button>
+        <Button></Button>
+        <Entry
+            x:Name="StudentIdEntry"
+            Placeholder="Student's ID"
+            StyleClass="entry-input"/>
+
+        <Button
+             Text="Delete Student by Id"
+             Clicked="DeleteStudent"
+             StyleClass="button-primary"/>
+        <Button></Button>
+        <Button></Button>
+        <Button></Button>
+        <Button
+             Text="Pick Random Student"
+             Clicked="Draw"
+             StyleClass="button-primary"/>
+        <Button
+            Text="Delete Class"
+            Clicked="DeleteClass"
+            StyleClass="button-primary"/>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

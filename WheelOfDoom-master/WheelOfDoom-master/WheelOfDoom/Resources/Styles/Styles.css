@@ -1,0 +1,50 @@
+^contentpage {
+    background-color: aquamarine;
+    -maui-shell-background: #2e4b4d;
+    -maui-shell-title: whitesmoke;
+}
+
+
+.content-page {
+    background-color: #66ede9;
+    padding: 20;
+}
+
+.label-title {
+    font-size: 24;
+    font-attributes: bold;
+    color: #2c3e50;
+    margin-bottom: 10;
+    horizontal-options: Center;
+}
+
+.button-primary {
+    background-color: #6e6e6e;
+    text-color: white;
+    corner-radius: 12;
+    padding: 10;
+    font-size: 16;
+}
+
+.button-secondary {
+    background-color: #3773db;
+    text-color: white;
+    corner-radius: 12;
+    padding: 10;
+    font-size: 16;
+}
+
+.entry-input {
+    background-color: #62878a;
+    border-color: #000000;
+    border-width: 1;
+    corner-radius: 6;
+    padding: 8;
+    margin-bottom: 10;
+}
+
+#ClassListLabel {
+    font-size: 20;
+    font-attributes: bold;
+    color: #2980b9;
+}
