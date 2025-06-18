@@ -19,8 +19,6 @@
             Text="Add Student"
             Clicked="AddStudent"
             StyleClass="button-primary"/>
-        <Button></Button>
-        <Button></Button>
         <Entry
             x:Name="StudentIdEntry"
             Placeholder="Student's ID"
@@ -30,9 +28,7 @@
              Text="Delete Student by Id"
              Clicked="DeleteStudent"
              StyleClass="button-primary"/>
-        <Button></Button>
-        <Button></Button>
-        <Button></Button>
+
         <Button
              Text="Pick Random Student"
              Clicked="Draw"
